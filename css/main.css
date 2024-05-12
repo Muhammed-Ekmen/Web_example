@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+.background_image {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/gifs/space2.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.profile_image {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+@keyframes textAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the text */
+.title {
+  color: white;
+  margin-left: 20px;
+  animation: textAnimation 2s infinite; /* Animation name, duration, and iteration count */
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}

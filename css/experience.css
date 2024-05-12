@@ -1,0 +1,33 @@
+#experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../assets/images/moon.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.experience-content {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  width: 100%;
+}
+
+.experience-text {
+  color: white;
+  width: 200px;
+  text-align: center;
+}
+
+.experience-text h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.experience-image {
+  margin-left: 20px;
+  text-align: center;
+}

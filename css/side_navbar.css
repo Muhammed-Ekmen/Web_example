@@ -1,0 +1,13 @@
+.side_nav_bar {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons-container a {
+  margin-bottom: 50px;
+}
