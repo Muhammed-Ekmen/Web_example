@@ -5,7 +5,7 @@
 .background_image {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/gifs/space2.gif");
+  background: url("../assets/images/moon.png");
   background-size: cover;
   background-position: center;
 }
