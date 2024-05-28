@@ -5,7 +5,7 @@
 .background_image {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/images/moon.png");
+  background: url("../assets/images/moon.gif");
   background-size: cover;
   background-position: center;
 }
@@ -24,11 +24,10 @@
   }
 }
 
-/* Apply the animation to the text */
 .title {
   color: white;
   margin-left: 20px;
-  animation: textAnimation 2s infinite; /* Animation name, duration, and iteration count */
+  animation: textAnimation 2s infinite; 
 }
 
 section {
